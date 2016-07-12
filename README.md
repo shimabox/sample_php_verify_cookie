@@ -2,7 +2,7 @@
 
 ### 以下ブログ記事の検証用です
 
-[http://shimabox.hatenablog.com/entry/2016/05/15/090107](http://shimabox.hatenablog.com/entry/2016/05/15/090107)
+[【PHP】Cookieの検証 (保存出来る最大サイズを調べたり、圧縮した文字列をセットしてみたり)をしてみた – 2016年5月 | Shimabox Blog](https://blog.shimabox.net/2016/05/15/php_verify_cookie/)
 
 ### 以下の検証をします
 - cookieにセットする値の長さが4096byte以上(値 >= 4096)だとcookieにセットされない(無視される)
