@@ -33,7 +33,7 @@ require_once 'config.php';
  * @link http://www.teria.com/~koseki/memo/cookie/cookie_4k.html
  * @link http://fukaoi.org/2007/06/20/cookie
  * @link http://d.hatena.ne.jp/hosikiti/20130925/1380098776
- * @link http://shimabox.hatenablog.com/entry/2016/05/15/090107
+ * @link https://blog.shimabox.net/2016/05/15/php_verify_cookie/
  */
 function verifyCookie(
     $value,
@@ -232,7 +232,7 @@ if (_get('exec') && (int)_get('exec') === 1) {
           <li>なお、cookieのサイズ制限にはcookie名の長さも含まれる(セットする値の長さ + cookie名の長さが対象になる)</li>
         </ul>
         <p style="padding: 0 0 0 2.5rem;">
-          <span>※ 1クッキーの最大サイズ(byte)で一番小さい値が4096byteだったので4096byteを基準にしています (<a href="http://shimabox.hatenablog.com/entry/2016/05/15/090107">こちら</a>を参考)</span><br>
+          <span>※ 1クッキーの最大サイズ(byte)で一番小さい値が4096byteだったので4096byteを基準にしています (<a href="https://blog.shimabox.net/2016/05/15/php_verify_cookie/">こちら</a>を参考)</span><br>
           <span>※ cookieにセットする値の長さは、URLエンコード後の長さ(byte数)です</span>
         </p>
         <p class="bg-info" style="padding: 1rem;"><span>e.g. 文字列の圧縮/解凍</span></p>
